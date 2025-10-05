@@ -171,7 +171,7 @@ export default function RFTEBottleneckMapper() {
                     {(backlogWeeks[i]?.weeksOf ?? 0) > 1 ? (
                       <span className="text-red-600">(&gt;1 week)</span>
                     ) : (
-                      <span className="text-emerald-600">(≤1 week)</span>
+                      <span className="text-emerald-600">(&le;1 week)</span>
                     )}
                   </div>
                 </div>
